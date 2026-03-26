@@ -1,25 +1,35 @@
+:root {
+    --fav-color-main: darkblue;
+    --border-primary: black;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--fav-color-main);
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 main {
     max-width: 840px;
 }
+
 h1 {
-    color: darkblue;
+    color: var(--fav-color-main);
 }
+
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-primary);
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -29,15 +39,18 @@ aside {
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 p {
     padding: 0px;
 }
+
 footer {
     margin-top: 15px;
-    border-top: 1px dotted #000;
+    border-top: 1px dotted var(--border-primary);
     text-align: center;
 }
