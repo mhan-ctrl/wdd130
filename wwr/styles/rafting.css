@@ -5,7 +5,6 @@
     --accent-color: #f4a261;
     --background-color: #f1faee;
     --text-color: #2b2d42;
-    --border-color: #8d99ae;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", Arial, sans-serif;
 }
@@ -38,8 +37,7 @@ h1 {
 
 article {
     background-color: var(--primary-color);
-    border-color: var(--border-color);
-    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -79,4 +77,9 @@ nav, p, section, article {
     width: 125px;
     margin: 16px;
     padding: 8px;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
 }
