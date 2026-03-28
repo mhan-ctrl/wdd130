@@ -33,11 +33,11 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
+    font-family: var(--heading-font);
     background-color: var(--background-color);
 }
 
 article {
-    position: absolute;
     background-color: var(--background-color);
 }
 
@@ -64,6 +64,10 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
