@@ -54,6 +54,10 @@ section p {
     background-color: var(--background-color);
 }
 
+footer p {
+    font-size: 12px;
+}
+
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
