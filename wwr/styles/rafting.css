@@ -1,8 +1,7 @@
 :root {
     /*River and Sky*/
-    --primary-color: #2a9ddb;
+    --primary-color: hsl(200, 76%, 72%);
     --secondary-color: #1d3557;
-    --accent-color: #f4a261;
     --background-color: #f1faee;
     --text-color: #2b2d42;
     --heading-font: "Montserrat", sans-serif;
