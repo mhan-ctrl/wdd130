@@ -1,0 +1,72 @@
+:root {
+    /*River and Sky*/
+    --primary-color: #2a9ddb;
+    --secondary-color: #1d3557;
+    --accent-color: #f4a261;
+    --background-color: #f1faee;
+    --text-color: #2b2d42;
+    --border-color: #8d99ae;
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--background-color);
+}
+
+article {
+    position: absolute;
+    background-color: var(--background-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--header-text-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/*Class Selectors*/
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
