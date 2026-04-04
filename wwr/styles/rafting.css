@@ -19,6 +19,25 @@ body {
     color: var(--text-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav a {
+    border: 1px solid var(--secondary-color);
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -58,7 +77,7 @@ footer p {
     font-size: 12px;
 }
 
-nav, p, section, article {
+p, section, article {
     margin: 16px;
     padding: 8px;
 }
