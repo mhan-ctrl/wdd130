@@ -29,7 +29,6 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav a {
@@ -58,6 +57,11 @@ article {
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+section {
+    display: grid;
+    align-items: center;
+}
+
 h2 {
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
@@ -69,8 +73,29 @@ h1, h2 {
     text-align: center;
 }
 
-section p {
+section {
     background-color: var(--background-color);
+}
+
+figure {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    border: 1px solid var(--secondary-color);
+
 }
 
 footer p {
@@ -110,6 +135,30 @@ p, section, article {
 }
 
 .socialmedia img {
-    width: 50px;
+    width: 20px;
     height: auto;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto;
+}
+
+.history h2 {
+    grid-column: 1 / -1;
+}
+
+.history img {
+    max-width: 300px;
+    height: auto;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.adventure h2 {
+    grid-column: 1 / -1;
 }
