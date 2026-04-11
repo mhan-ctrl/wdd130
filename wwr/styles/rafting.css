@@ -153,9 +153,17 @@ p, section, article {
 
 .adventure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr auto auto;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .adventure h2 {
     grid-column: 1 / -1;
+}
+
+.adventure img {
+    width: 120px;
+    height: auto;
+    margin: 20px;
 }
