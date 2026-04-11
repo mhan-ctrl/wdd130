@@ -24,6 +24,8 @@ header {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--background-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -35,6 +37,7 @@ nav a {
     border: 1px solid var(--secondary-color);
     padding: 8px 20px;
     text-decoration: none;
+    background-color: white;
 }
 
 header, main, footer {
@@ -63,15 +66,12 @@ section {
     background-color: var(--background-color);
 }
 
-h2 {
-    border: 2px solid rgba(0, 0, 0, 0.1);
-}
-
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--secondary-color);
     text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 figure {
@@ -92,19 +92,28 @@ footer {
     align-items: center;
     background-color: var(--background-color);
     border: 1px solid var(--secondary-color);
-
-}
-
-footer p {
     font-size: 12px;
 }
 
-p, section, article {
+section p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
 /*Class Selectors*/
+.contact h1 {
+    position: relative;
+    color: var(--text-color);
+    background-color: white;
+    border: none;
+    opacity: 1;
+}
+
+.contact p {
+    position: relative;
+    text-align: center;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
