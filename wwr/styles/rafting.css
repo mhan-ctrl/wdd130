@@ -100,6 +100,21 @@ section p, section, article {
     padding: 8px;
 }
 
+iframe {
+    width: 400px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+form div {
+    margin: 10px;
+}
+
 /*Class Selectors*/
 .contact h1 {
     position: relative;
@@ -112,6 +127,12 @@ section p, section, article {
 .contact p {
     position: relative;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
 }
 
 .socialmedia a {
@@ -175,4 +196,28 @@ section p, section, article {
     width: 120px;
     height: auto;
     margin: 20px;
+}
+
+.form-item2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-item3 {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.form-item4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
