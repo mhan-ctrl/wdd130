@@ -80,10 +80,6 @@ h3 {
     padding: 10px;
 }
 
-figcaption {
-    font-weight: bold;
-}
-
 figure {
     display: grid;
     align-items: center;
@@ -185,6 +181,11 @@ th, td {
 .container {
     display: flex;
     justify-content: center;
+}
+
+.caption {
+    font-weight: bold;
+    text-align: center;
 }
 
 .excited {
@@ -306,9 +307,14 @@ th, td {
 .trip {
     display: grid;
     width: fit-content;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.6fr 0.6fr;
     background-color: var(--background-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 10px;
+}
+
+.trip img {
+    width: 250px;
+    height: auto;
 }
