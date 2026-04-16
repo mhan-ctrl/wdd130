@@ -132,6 +132,21 @@ button {
 }
 
 /*Class Selectors*/
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+.actions form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 0px;
+}
+
 .contact h1 {
     position: relative;
     color: var(--text-color);
@@ -150,6 +165,14 @@ button {
     justify-content: center;
 }
 
+.excited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -166,7 +189,9 @@ button {
 
 .hero article {
     position: absolute;
-    top: 400px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .hero article img {
@@ -174,6 +199,11 @@ button {
     width: 125px;
     margin: 16px;
     padding: 8px;
+}
+
+.introduction {
+    text-align: center;
+    font-size: 20px;
 }
 
 .socialmedia img {
@@ -245,4 +275,8 @@ button {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.solutions {
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
